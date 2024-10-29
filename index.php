@@ -1,9 +1,9 @@
 <?php
 // // Database connection details
 // $host = 'localhost';
-// $db = 'sujancom_demo';
-// $user = 'sujancom_demouser';
-// $pass = 'sujan.sujan';
+// $db = '';
+// $user = '';
+// $pass = '';
 
 // // Create a new PDO instance
 // try {
