@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search API Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .search-container {
+            margin-bottom: 20px;
+        }
+        .search-container input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .search-container button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        .results {
+            margin-top: 20px;
+        }
+        .result-item {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .result-item h3 {
+            margin: 0 0 10px;
+        }
+        .result-item pre {
+            white-space: pre-wrap; /* Keeps the formatting of the code */
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Enter description to search">
+        <button onclick="performAdvancedSearch()">Search</button>
+    </div>
+    <div class="results" id="resultsContainer"></div>
+
+    <script>
+        async function performAdvancedSearch() {
+            const searchInput = document.getElementById('searchInput').value;
+            const resultsContainer = document.getElementById('resultsContainer');
+
+            if (!searchInput.trim()) {
+                resultsContainer.innerHTML = '<p>Please enter a search term.</p>';
+                return;
+            }
+
+            // Break search input into chunks
+            const chunks = searchInput.split(/\s+/).filter(chunk => chunk.length > 0);
+            if (chunks.length === 0) {
+                resultsContainer.innerHTML = '<p>No valid search terms entered.</p>';
+                return;
+            }
+
+            try {
+                const responses = await Promise.all(chunks.map(chunk =>
+                    fetch(`https://api.sujan1919.com.np/search-api.php?query=${encodeURIComponent(chunk)}`).then(res => res.json())
+                ));
+
+                const results = {};
+                responses.flat().forEach(item => {
+                    if (!results[item.id]) {
+                        results[item.id] = { ...item, score: 0 };
+                    }
+                    results[item.id].score += chunks.length; 
+                });
+
+                const sortedResults = Object.values(results).sort((a, b) => b.score - a.score);
+
+                if (sortedResults.length === 0) {
+                    resultsContainer.innerHTML = '<p>No results found.</p>';
+                } else {
+                    resultsContainer.innerHTML = sortedResults.map(result => `
+                        <div class="result-item">
+                            <h3>${result.title}</h3>
+                            <pre>${result.content}</pre>
+                        </div>
+                    `).join('');
+                }
+            } catch (error) {
+                resultsContainer.innerHTML = '<p>An error occurred while searching. Please try again later.</p>';
+                console.error('Error:', error);
+            }
+        }
+    </script>
+</body>
+</html>

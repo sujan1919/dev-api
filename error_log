@@ -1,0 +1,116 @@
+[14-Aug-2024 05:11:23 UTC] PHP Warning:  Undefined variable $db in /home/sujancom/api.sujan1919.com.np/search-api.php on line 14
+[14-Aug-2024 05:11:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/sujancom/api.sujan1919.com.np/search-api.php:28
+Stack trace:
+#0 /home/sujancom/api.sujan1919.com.np/search-api.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sujancom/api.sujan1919.com.np/search-api.php on line 28
+[14-Aug-2024 05:11:23 UTC] PHP Warning:  Undefined variable $db in /home/sujancom/api.sujan1919.com.np/search-api.php on line 14
+[14-Aug-2024 05:11:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/sujancom/api.sujan1919.com.np/search-api.php:28
+Stack trace:
+#0 /home/sujancom/api.sujan1919.com.np/search-api.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sujancom/api.sujan1919.com.np/search-api.php on line 28
+[14-Aug-2024 05:11:23 UTC] PHP Warning:  Undefined variable $db in /home/sujancom/api.sujan1919.com.np/search-api.php on line 14
+[14-Aug-2024 05:11:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/sujancom/api.sujan1919.com.np/search-api.php:28
+Stack trace:
+#0 /home/sujancom/api.sujan1919.com.np/search-api.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sujancom/api.sujan1919.com.np/search-api.php on line 28
+[14-Aug-2024 05:11:31 UTC] PHP Warning:  Undefined variable $db in /home/sujancom/api.sujan1919.com.np/search-api.php on line 14
+[14-Aug-2024 05:11:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/sujancom/api.sujan1919.com.np/search-api.php:28
+Stack trace:
+#0 /home/sujancom/api.sujan1919.com.np/search-api.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sujancom/api.sujan1919.com.np/search-api.php on line 28
+[14-Aug-2024 05:11:31 UTC] PHP Warning:  Undefined variable $db in /home/sujancom/api.sujan1919.com.np/search-api.php on line 14
+[14-Aug-2024 05:11:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/sujancom/api.sujan1919.com.np/search-api.php:28
+Stack trace:
+#0 /home/sujancom/api.sujan1919.com.np/search-api.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sujancom/api.sujan1919.com.np/search-api.php on line 28
+[14-Aug-2024 05:11:31 UTC] PHP Warning:  Undefined variable $db in /home/sujancom/api.sujan1919.com.np/search-api.php on line 14
+[14-Aug-2024 05:11:31 UTC] PHP Warning:  Undefined variable $db in /home/sujancom/api.sujan1919.com.np/search-api.php on line 14
+[14-Aug-2024 05:11:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/sujancom/api.sujan1919.com.np/search-api.php:28
+Stack trace:
+#0 /home/sujancom/api.sujan1919.com.np/search-api.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sujancom/api.sujan1919.com.np/search-api.php on line 28
+[14-Aug-2024 05:11:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/sujancom/api.sujan1919.com.np/search-api.php:28
+Stack trace:
+#0 /home/sujancom/api.sujan1919.com.np/search-api.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sujancom/api.sujan1919.com.np/search-api.php on line 28
+[14-Aug-2024 05:11:31 UTC] PHP Warning:  Undefined variable $db in /home/sujancom/api.sujan1919.com.np/search-api.php on line 14
+[14-Aug-2024 05:11:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/sujancom/api.sujan1919.com.np/search-api.php:28
+Stack trace:
+#0 /home/sujancom/api.sujan1919.com.np/search-api.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sujancom/api.sujan1919.com.np/search-api.php on line 28
+[14-Aug-2024 05:11:31 UTC] PHP Warning:  Undefined variable $db in /home/sujancom/api.sujan1919.com.np/search-api.php on line 14
+[14-Aug-2024 05:11:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/sujancom/api.sujan1919.com.np/search-api.php:28
+Stack trace:
+#0 /home/sujancom/api.sujan1919.com.np/search-api.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sujancom/api.sujan1919.com.np/search-api.php on line 28
+[14-Aug-2024 05:11:41 UTC] PHP Warning:  Undefined variable $db in /home/sujancom/api.sujan1919.com.np/search-api.php on line 14
+[14-Aug-2024 05:11:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/sujancom/api.sujan1919.com.np/search-api.php:28
+Stack trace:
+#0 /home/sujancom/api.sujan1919.com.np/search-api.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sujancom/api.sujan1919.com.np/search-api.php on line 28
+[14-Aug-2024 05:12:06 UTC] PHP Warning:  Undefined variable $db in /home/sujancom/api.sujan1919.com.np/search-api.php on line 10
+[14-Aug-2024 05:12:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/sujancom/api.sujan1919.com.np/search-api.php:24
+Stack trace:
+#0 /home/sujancom/api.sujan1919.com.np/search-api.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sujancom/api.sujan1919.com.np/search-api.php on line 24
+[14-Aug-2024 05:12:11 UTC] PHP Warning:  Undefined variable $db in /home/sujancom/api.sujan1919.com.np/search-api.php on line 10
+[14-Aug-2024 05:12:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/sujancom/api.sujan1919.com.np/search-api.php:24
+Stack trace:
+#0 /home/sujancom/api.sujan1919.com.np/search-api.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sujancom/api.sujan1919.com.np/search-api.php on line 24
+[14-Aug-2024 05:12:17 UTC] PHP Warning:  Undefined variable $db in /home/sujancom/api.sujan1919.com.np/search-api.php on line 10
+[14-Aug-2024 05:12:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/sujancom/api.sujan1919.com.np/search-api.php:24
+Stack trace:
+#0 /home/sujancom/api.sujan1919.com.np/search-api.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sujancom/api.sujan1919.com.np/search-api.php on line 24
+[14-Aug-2024 05:12:31 UTC] PHP Warning:  Undefined variable $db in /home/sujancom/api.sujan1919.com.np/search-api.php on line 10
+[14-Aug-2024 05:12:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/sujancom/api.sujan1919.com.np/search-api.php:24
+Stack trace:
+#0 /home/sujancom/api.sujan1919.com.np/search-api.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sujancom/api.sujan1919.com.np/search-api.php on line 24
+[14-Aug-2024 05:13:05 UTC] PHP Warning:  Undefined variable $db in /home/sujancom/api.sujan1919.com.np/search-api.php on line 10
+[14-Aug-2024 05:13:05 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/sujancom/api.sujan1919.com.np/search-api.php:24
+Stack trace:
+#0 /home/sujancom/api.sujan1919.com.np/search-api.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sujancom/api.sujan1919.com.np/search-api.php on line 24
+[14-Aug-2024 05:13:06 UTC] PHP Warning:  Undefined variable $db in /home/sujancom/api.sujan1919.com.np/search-api.php on line 10
+[14-Aug-2024 05:13:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/sujancom/api.sujan1919.com.np/search-api.php:24
+Stack trace:
+#0 /home/sujancom/api.sujan1919.com.np/search-api.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sujancom/api.sujan1919.com.np/search-api.php on line 24
+[18-Sep-2024 07:37:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generateApiKey() in /home/sujancom/api.sujan1919.com.np/get-api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sujancom/api.sujan1919.com.np/get-api.php on line 17
+[18-Sep-2024 07:37:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generateApiKey() in /home/sujancom/api.sujan1919.com.np/get-api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sujancom/api.sujan1919.com.np/get-api.php on line 17
+[18-Sep-2024 07:38:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generateApiKey() in /home/sujancom/api.sujan1919.com.np/get-api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sujancom/api.sujan1919.com.np/get-api.php on line 17
+[18-Sep-2024 07:38:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generateApiKey() in /home/sujancom/api.sujan1919.com.np/get-api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sujancom/api.sujan1919.com.np/get-api.php on line 17
+[18-Sep-2024 07:55:40 UTC] PHP Warning:  Undefined variable $apiKey in /home/sujancom/api.sujan1919.com.np/index.php on line 206
+[18-Sep-2024 07:55:40 UTC] PHP Warning:  Undefined variable $search in /home/sujancom/api.sujan1919.com.np/index.php on line 208
+[18-Sep-2024 07:55:40 UTC] PHP Warning:  Undefined variable $error in /home/sujancom/api.sujan1919.com.np/index.php on line 212
+[18-Sep-2024 07:55:40 UTC] PHP Warning:  Undefined variable $results in /home/sujancom/api.sujan1919.com.np/index.php on line 214
